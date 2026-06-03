@@ -1,0 +1,12 @@
+[project]
+name = "weather-alert-mcp"
+version = "0.1.0"
+description = "MCP server for weather alerts tied to calendar events"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.8.0",
+    "openmeteo-requests",
+    "tzlocal",
+    "requests",
+    "pandas",
+]
